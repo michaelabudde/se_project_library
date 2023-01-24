@@ -127,6 +127,7 @@
   max-width: 760px;
   margin: 68px auto auto auto;
   list-style-type: none;
+  padding: 0;
 }
 
 .card {
@@ -261,7 +262,7 @@
 }
 
 .person_name_feynman {
-  top: 30px;
+  top: -30px;
   left: 319px;
 }
 
