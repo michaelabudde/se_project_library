@@ -60,7 +60,7 @@
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
 
-          <ul>
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -190,6 +190,7 @@
                 alt="image of cannon"
                 class="person__image person__image_size_m"
               />
+              <p class="person__caption">Annie Jump Cannon</p>
             </div>
             <div class="person person_name_mitchell">
               <img
@@ -287,11 +288,47 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!-- <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
+
       <footer class="footer" id="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img class="footer__logo" src="./images/logo_practicum.svg" />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Hours</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am-8pm</li>
+              <li class="footer__list-item">Weekends: 10am-6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Social Media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" rel="external" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" rel="external" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2022 Michaela Budde</p>
       </footer>
     </div>
   </body>
