@@ -332,7 +332,7 @@
 }
 
 .step {
-  text-align: column;
+  text-align: left;
   flex-basis: 220px;
 }
 
