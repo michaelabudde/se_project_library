@@ -21,7 +21,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
@@ -34,6 +34,7 @@
   justify-content: right;
   list-style: none;
   padding-left: 0px;
+  margin-top: 8px;
   margin-bottom: 0px;
   align-items: center;
   column-gap: 20px;
